@@ -1,0 +1,102 @@
+
+:root {
+  --main-color: #1abc9c;
+  --second-color: #2c3e50;
+}
+
+.navbar{
+  background-color:var(--second-color) ;
+    transition: .6s padding;
+}
+.nav-item{
+  padding: 0 15px;
+}
+.nav-link{
+
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+
+}
+.nav-link:focus, .nav-link:hover {
+  color: white;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: white;
+  padding: 8px;
+  background-color: var(--main-color);
+  border-radius: 5px;
+}
+
+.footer{
+  background-color: var(--second-color);
+  padding: 40px;
+}
+.card {
+
+  background-color: inherit;
+  color: #fff;
+  border: 0;
+}
+
+.icons i {
+
+  border: 1px white solid;
+  padding: 10px;
+  border-radius: 50%;
+}
+.footer-butom{
+
+  background-color: #1A252F;
+  color: #fff;
+}
+
+.home{
+
+  background-color: var(--main-color);
+  height: 80vh;
+
+}
+.images{
+
+  width: 250px;
+}
+.line {
+  height: 4px;
+  width: 80px;
+}
+
+.my-color{
+  color: var(--second-color);
+}
+.my-bg-color-main{
+  background-color: var(--main-color);
+}
+.my-bg-color-second{
+  background-color: var(--second-color);
+}
+
+
+.portfolio-img-layer{
+  opacity:0;
+  transition: all 0.5s;
+}
+.portfolio-img-layer:hover {
+  opacity:0.9;
+}
+.__top {
+  top: 40px !important;
+}
+.form-control:focus {
+  box-shadow: none;
+
+}
+.form-floating>label {
+  position: absolute;
+  top: -10px;
+}
+
+
+label {
+  color: var(--main-color);
+}
